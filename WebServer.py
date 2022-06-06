@@ -5,7 +5,7 @@ serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind(('127.0.0.1', 80))
 serverSocket.listen(1)
 while True:
-    print("Server is running")
+    print("Ready To Serve...")
     #Establish the connection
     connectionSocket, addr = serverSocket.accept()
     try:
